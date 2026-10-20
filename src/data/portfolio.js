@@ -58,50 +58,143 @@ export const technologies = [
   { name: 'Docker', group: 'DevOps', icon: SiDocker },
   { name: 'Git', group: 'Version Control', icon: SiGit },
 ];
+// export const projects = [
+//   {
+//     id: 1,
+//     title: 'MaintAI',
+//     eyebrow: 'FLAGSHIP PRODUCT',
+//     category: 'AI',
+//     description:
+//       'An AI-powered industrial troubleshooting platform designed to turn manuals, machine context and technician feedback into faster, more useful maintenance guidance.',
+//     detail:
+//       'Built around a Java/Spring backend with RAG-oriented knowledge retrieval, feedback approval workflows and a roadmap for OCR + vision-assisted diagnosis.',
+//     tags: ['Spring Boot', 'Spring AI', 'OpenAI', 'Pinecone', 'MongoDB', 'AWS', 'Flutter'],
+//     featured: true,
+//   },
+//   {
+//     id: 2,
+//     title: 'Banking Chargeback Platform',
+//     eyebrow: 'ENTERPRISE ENGINEERING',
+//     category: 'Backend',
+//     description:
+//       'Work on chargeback-related banking workflows with a focus on reliable enterprise services, operational correctness and maintainable backend systems.',
+//     detail:
+//       'A large-scale banking environment where clean APIs, controlled workflows and production reliability matter more than flashy demos.',
+//     tags: ['Java', 'Spring Boot', 'REST APIs', 'SQL', 'Enterprise'],
+//   },
+//   {
+//     id: 3,
+//     title: 'Trading Strategy Backtester',
+//     eyebrow: 'JAVA SYSTEM',
+//     category: 'Backend',
+//     description:
+//       'A Java-based backtesting engine for validating trading ideas against historical market data instead of relying on intuition alone.',
+//     detail:
+//       'Models entries, exits, stop losses, targets, fees and slippage, then reports win rate, profit factor, drawdown and other strategy metrics.',
+//     tags: ['Java', 'Backtesting', 'Data', 'Strategy Engine'],
+//   },
+//   {
+//     id: 4,
+//     title: 'AI Engineering Lab',
+//     eyebrow: 'EXPERIMENTS',
+//     category: 'AI',
+//     description:
+//       'A growing collection of experiments around LLM applications, embeddings, retrieval, tool use and agentic workflows using the Java ecosystem.',
+//     detail:
+//       'The goal is to understand the mechanics behind modern AI systems and then apply the useful pieces to real products.',
+//     tags: ['Spring AI', 'RAG', 'Embeddings', 'Agents', 'Java'],
+//   },
+// ];
+
+
 export const projects = [
   {
     id: 1,
-    title: 'MaintAI',
-    eyebrow: 'FLAGSHIP PRODUCT',
-    category: 'AI',
-    description:
-      'An AI-powered industrial troubleshooting platform designed to turn manuals, machine context and technician feedback into faster, more useful maintenance guidance.',
-    detail:
-      'Built around a Java/Spring backend with RAG-oriented knowledge retrieval, feedback approval workflows and a roadmap for OCR + vision-assisted diagnosis.',
-    tags: ['Spring Boot', 'Spring AI', 'OpenAI', 'Pinecone', 'MongoDB', 'AWS', 'Flutter'],
+    title: "MaintAI",
+    eyebrow: "FLAGSHIP PROJECT",
+    category: "AI",
     featured: true,
+
+    description:
+      "An AI-powered industrial troubleshooting platform designed to turn manuals, machine context and technician feedback into faster, more useful maintenance guidance.",
+
+    detail:
+      "Built around a Java/Spring backend with RAG-based knowledge retrieval, feedback approval workflows and a roadmap for OCR and vision-assisted diagnosis.",
+
+    tags: [
+      "Spring Boot",
+      "Spring AI",
+      "OpenAI",
+      "Pinecone",
+      "MongoDB",
+      "AWS",
+      "Flutter",
+    ],
   },
+
   {
     id: 2,
-    title: 'Banking Chargeback Platform',
-    eyebrow: 'ENTERPRISE ENGINEERING',
-    category: 'Backend',
+    title: "Banking Chargeback Platform",
+    eyebrow: "ENTERPRISE BACKEND",
+    category: "Backend",
+    featured: false,
+
     description:
-      'Work on chargeback-related banking workflows with a focus on reliable enterprise services, operational correctness and maintainable backend systems.',
+      "Enterprise backend workflows for processing and managing payment disputes and chargeback-related operations.",
+
     detail:
-      'A large-scale banking environment where clean APIs, controlled workflows and production reliability matter more than flashy demos.',
-    tags: ['Java', 'Spring Boot', 'REST APIs', 'SQL', 'Enterprise'],
+      "Worked on integration-heavy business workflows with a focus on reliability, maintainability and clean backend architecture.",
+
+    tags: [
+      "Java",
+      "Spring Boot",
+      "REST APIs",
+      "SQL",
+      "Enterprise Systems",
+    ],
   },
+
   {
     id: 3,
-    title: 'Trading Strategy Backtester',
-    eyebrow: 'JAVA SYSTEM',
-    category: 'Backend',
+    title: "Trading Backtesting Engine",
+    eyebrow: "JAVA SYSTEMS",
+    category: "Backend",
+    featured: false,
+
     description:
-      'A Java-based backtesting engine for validating trading ideas against historical market data instead of relying on intuition alone.',
+      "A Java-based backtesting engine for evaluating trading strategies using historical market data.",
+
     detail:
-      'Models entries, exits, stop losses, targets, fees and slippage, then reports win rate, profit factor, drawdown and other strategy metrics.',
-    tags: ['Java', 'Backtesting', 'Data', 'Strategy Engine'],
+      "Designed to account for execution assumptions, transaction costs, risk rules and strategy performance instead of relying on unrealistic theoretical returns.",
+
+    tags: [
+      "Java",
+      "Market Data",
+      "Backtesting",
+      "Algorithms",
+      "Risk Analysis",
+    ],
   },
+
   {
     id: 4,
-    title: 'AI Engineering Lab',
-    eyebrow: 'EXPERIMENTS',
-    category: 'AI',
+    title: "AI Engineering Experiments",
+    eyebrow: "APPLIED AI",
+    category: "AI",
+    featured: false,
+
     description:
-      'A growing collection of experiments around LLM applications, embeddings, retrieval, tool use and agentic workflows using the Java ecosystem.',
+      "A collection of experiments exploring RAG, embeddings, vector search and AI-assisted application workflows.",
+
     detail:
-      'The goal is to understand the mechanics behind modern AI systems and then apply the useful pieces to real products.',
-    tags: ['Spring AI', 'RAG', 'Embeddings', 'Agents', 'Java'],
+      "Used these projects to understand how modern AI systems work internally and how they can be integrated into real Java and Spring applications.",
+
+    tags: [
+      "Spring AI",
+      "OpenAI",
+      "RAG",
+      "Embeddings",
+      "Vector Search",
+    ],
   },
 ];
